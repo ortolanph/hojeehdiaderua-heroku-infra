@@ -1,0 +1,1 @@
+tipos.logradouros=Alameda,Avenida,Ladeira,Rua,Travessa
