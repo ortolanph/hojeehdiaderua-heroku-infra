@@ -22,8 +22,8 @@ main(List arguments) {
 
       location.day = int.parse(row[1]);
       location.month = int.parse(row[2]);
-      location.adminLevel1 = row[3];
-      location.adminLevel2 = row[4];
+      location.adminLevel1Name = row[3];
+      location.adminLevel2Name = row[4];
       location.latitude = double.parse(row[5]);
       location.longitude = double.parse(row[6]);
       location.country_id = 1;

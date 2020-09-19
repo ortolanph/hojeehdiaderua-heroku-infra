@@ -105,7 +105,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"code\": \"ZM\",\n    \"name\": \"Zambodja\"\n}",
+					"raw": "{\n    \"timezone\": \"America/Sao_Paulo\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -113,7 +113,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:9090/api/countries/3",
+					"raw": "http://localhost:9090/api/countries/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -122,7 +122,7 @@
 					"path": [
 						"api",
 						"countries",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -197,6 +197,55 @@
 						"countries",
 						"code",
 						"DL"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Today Streets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/api/locations/country/BR/today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"locations",
+						"country",
+						"BR",
+						"today"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day Month Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/api/locations/country/BR/day/21/month/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"locations",
+						"country",
+						"BR",
+						"day",
+						"21",
+						"month",
+						"8"
 					]
 				}
 			},
